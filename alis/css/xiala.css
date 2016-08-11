@@ -1,0 +1,71 @@
+
+#jMenu {
+	display:table;
+	height: 46px;
+	width: 250px;
+	font-family: Microsoft yahei;
+	
+}
+
+/********************/
+/** premier niveau **/
+/********************/
+#jMenu li {
+	display:table-cell;
+	background-color:#DC2F33;
+	margin:0;
+	
+}
+
+	#jMenu li a {
+		
+		background-color: transparent;
+		color:#fff;
+		text-transform:uppercase;
+		cursor:pointer;
+		font-size:16px;
+		font-family: Microsoft yahei;
+	}
+
+#jMenu li a:hover {
+				opacity: 0.8	
+			}
+	
+/*******************/
+/** second niveau **/
+/*******************/
+#jMenu li ul {
+	display:none;
+	position:absolute;
+	padding:0;
+	margin:0;
+	height: 45px;
+	font-family: Microsoft yahei;
+}
+	#jMenu li ul li {
+		background-color:#DC2F33;
+		display:block;
+		padding:0;
+		font-family: Microsoft yahei;
+
+	}
+	/*#jMenu li ul li.arrow {
+		background:#322f32 url('../arrow_down.png') no-repeat center center;
+		height:6px;
+		padding:0;
+		border-bottom:none;
+		padding-bottom:10px
+	}*/
+		#jMenu li ul li a {
+			font-size:16px;
+
+			line-height: 46px;
+			text-transform:none;
+			display:block;
+			font-family: Microsoft yahei；
+		}
+			#jMenu li ul a:hover {
+				
+				opacity: 0.8
+				
+			}
